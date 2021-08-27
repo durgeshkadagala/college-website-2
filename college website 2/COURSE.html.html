@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/63033e98fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header" >
+        <nav>
+            <a href="index.html"><img src="images/kiet logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ABOUT.html.html">ABOUT</a></li>
+                    <li><a href="COURSE.html.html">COURSE</a></li>
+                    <li><a href="BLOG.html.html">BLOG</a></li>
+                    <li><a href="CONTACT.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR COURSES</h1>
+   
+    </section>
+
+    <!-----COURSE-------->
+
+    <section class="course">
+    <h1>Courses we offer</h1>
+    <p></p>
+    <div class="row">
+        <div class="course-col">
+        <h3>Diploma</h3>
+        <p>For those who wish to decide about graduation after some work experience can pursue several short term certificate and diploma courses after 10 to get directly get placed in reputed organisations. This may not just be the case. 
+             
+        </p>
+    </div>
+     <div class="course-col">
+         <h3>Degree</h3>
+         <p>The Bachelors in Engineering (BE) degree programme also offers a similar orientation to students as the one offered by a B.Tech programme. In fact, such as the degree of overlap in eligibility criteria to colleges, subjects taught recruiting companies and even job profiles offered during placements.
+        </p>
+    </div>
+        <div class="course-col">
+        <h3>Post graduation</h3>
+        <p>
+            These post-graduate diploma programs are mainly one-year programs that are divided into two to four semesters, depending on hands-on training, field work, and credit requirements. These are master's level programs that only cover the essentials. 
+    </p>    
+</div>
+
+</section>
+<!------FACILITIES-->
+<section class="facilities">
+
+    <h1>Our Facilities</h1>
+    <p></p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/college library.png">
+            <h3>World class library</h3>
+            <p>Housed in an acoustically designed ambience of 15,000 sqft, it contains more than 25,000 volumes of books and 160 National and International journals</p>
+
+        </div>
+        <div class="facilities-col">
+            <img src="images/college playground.jpg">
+            <h3>Largesst Play Ground</h3>
+            <p>KIET has the provision of a large and spacious playground as well as facilities for indoor games. Students have a choice of sports which include Basket Ball ...</p>
+            
+        </div>
+        <div class="facilities-col">
+            <img src="images/college canteen2.jpg">
+            <h3>Tasty And Healthy Food</h3>
+            <p>KIET has an ambient canteen which provides Hygenic & Delicious Food.
+                Class IV staff members are provided with free food.
+                It Accommodates students and staff with Subsidised food</p>
+            
+        </div>
+    </div>
+
+
+</section>
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+        jAddress: Matlapalem Tallarevu M ,Korangi , 533461, East Godavari District.
+        Head: Dr.AVSN Murty<br> 
+    </p>    
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+   
+</section>
+
+
+
+
+
+
+
+
+<!-----javascript----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+
+
+
+
+</body>
+</html>
